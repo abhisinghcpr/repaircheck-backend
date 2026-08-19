@@ -11,12 +11,16 @@ const options = {
         "RepairCheck Customer and Technician Backend API",
     },
 
-    servers: [
-      {
-        url: "http://localhost:5000",
-        description: "Local Development Server",
-      },
-    ],
+ servers: [
+  {
+    url: "http://localhost:5000",
+    description: "Local Development Server",
+  },
+  {
+    url: "https://repaircheck-backend.onrender.com",
+    description: "Production Server",
+  },
+],
 
     tags: [
       {
